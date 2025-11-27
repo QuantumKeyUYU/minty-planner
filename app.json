@@ -1,29 +1,36 @@
 {
   "expo": {
-    "name": "minty-planner",
+    "name": "MintyPlanner",
     "slug": "minty-planner",
     "version": "1.0.0",
     "orientation": "portrait",
     "entryPoint": "./App.js",
+
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
     "assetBundlePatterns": [
       "**/*"
     ],
+
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
+      "package": "com.quantumkeyuyu.mintyplanner",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
+
     "web": {
       "favicon": "./assets/favicon.png"
     }
