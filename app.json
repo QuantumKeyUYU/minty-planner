@@ -5,24 +5,19 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "entryPoint": "./App.js",
-
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
     "assetBundlePatterns": [
       "**/*"
     ],
-
     "ios": {
       "supportsTablet": true
     },
-
     "android": {
       "package": "com.quantumkeyuyu.mintyplanner",
       "adaptiveIcon": {
@@ -30,9 +25,14 @@
         "backgroundColor": "#ffffff"
       }
     },
-
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "771fbe74-1559-4be9-baa9-69d4de59e9d5"
+      }
+    },
+    "owner": "quantumk"
   }
 }
