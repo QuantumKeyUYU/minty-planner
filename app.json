@@ -1,9 +1,7 @@
 {
   "expo": {
-    "name": "minty-planner",
-    "slug": "minty-planner",
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "name": "MyApp",
+    "slug": "my-app",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
